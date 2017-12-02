@@ -1,3 +1,4 @@
+#!/bin/sh
 begin=$(expr $(cat ./begin) + 86400) # init: 1468944000
 end=$(date '+%s')
 
