@@ -1,5 +1,5 @@
 #!/bin/sh
-init=1468944000
+init=1468944001
 begin=$(expr $(cat ./begin) + 86400)
 end=$(date '+%s')
 
